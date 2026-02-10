@@ -61,4 +61,8 @@ git remote add origin https://github.com/yashkum2014/hrms-lite.git
 git branch -M main
 git push -u origin main
 
+Push anything updated to git:
+git add .
+git commit -m "Connect frontend to Render backend"
+git push
 
