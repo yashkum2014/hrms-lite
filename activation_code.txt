@@ -1,0 +1,48 @@
+Setup and Requirements for Backend :
+cd backend
+python -m venv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+pip install uvicorn
+pip install email-validator
+uvicorn main:app --reload
+
+------------------------------------------------------------------------------------------
+
+Setup and requirements for frontend :
+cd frontend
+npm install
+npm run dev
+
+------------------------------------------------------------------------------------------
+
+To run backend :
+cd backend
+venv\Scripts\activate
+uvicorn main:app --reload
+
+Output :
+if Uvicorn running on http://127.0.0.1:8000
+Application startup complete.
+
+Correct URL to Test Backend 
+http://127.0.0.1:8000/docs
+
+Press CTRL + C to quit
+
+To run frontend :
+keep backend running , open new terminal 
+cd frontend
+npm run dev
+
+output: 
+http://localhost:5173
+
+to test : fill these details
+Employee ID: EMP001
+Name: Yash Kumar
+Email: yash@test.com
+Department: IT
+
+
+
