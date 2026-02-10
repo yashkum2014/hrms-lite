@@ -44,5 +44,21 @@ Name: Yash Kumar
 Email: yash@test.com
 Department: IT
 
+----------------------------------------------------------------------------------------
+
+To push into Github:
+
+first make repo on github browser hrms-lite 
+
+open new terminal inside hrms-lite directory 
+git init
+git add .
+git commit -m "Initial HRMS Lite project"
+
+go to github browser copy commands under 
+"or push an existing repository from the command line"
+git remote add origin https://github.com/yashkum2014/hrms-lite.git
+git branch -M main
+git push -u origin main
 
 
