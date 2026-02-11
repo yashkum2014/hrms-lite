@@ -50,7 +50,7 @@ https://github.com/yashkum2014/hrms-lite
 
 ---
 
-## Bonus Features Implemented
+## Bonus Features
 
 - Filter attendance records by date  
 - Display total present days per employee  
@@ -68,3 +68,21 @@ python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
+
+Backend will run at:
+
+http://127.0.0.1:8000
+```
+### Frontend
+```bash
+cd frontend
+npm install
+npm run dev
+
+Frontend will run at:
+
+http://localhost:5173
+```
+
+
+
