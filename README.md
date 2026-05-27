@@ -17,6 +17,105 @@ Core features include:
 
 ---
 
+# 🚀 Features
+
+- Employee Management System
+- Add / Update / Delete Employees
+- Attendance Management
+- Attendance Filtering
+- Dashboard Summary Statistics
+- REST API Integration
+- Responsive Frontend UI
+- Backend Validation & Error Handling
+- PostgreSQL Database Integration
+- Full Stack Deployment on Render
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+- React
+- Vite
+- JavaScript
+- JSX
+- CSS
+- Axios
+
+## Backend
+- Python
+- FastAPI
+- SQLAlchemy
+- Pydantic
+- Uvicorn
+
+## Database
+- PostgreSQL
+- SQLite (Local Development)
+
+## Deployment & Tools
+- Render
+- Git
+- GitHub
+- VS Code
+- npm
+- pip
+
+---
+
+# 📌 Project Workflow
+
+The workflow of the **HRMS Lite** project starts from the frontend user interface and moves through backend APIs, business logic, database operations, and finally returns the response back to the user.
+
+---
+
+## Employee Management Workflow
+
+1. Admin interacts with the React frontend.
+2. Admin fills the employee form.
+3. Axios sends HTTP requests to the FastAPI backend.
+4. API routes handle incoming requests.
+5. Pydantic validates request data.
+6. Business logic processes the request.
+7. SQLAlchemy interacts with PostgreSQL.
+8. Database stores employee information.
+9. Backend sends JSON response.
+10. React frontend updates the UI dynamically.
+
+---
+
+## Attendance Management Workflow
+
+1. Admin selects an employee.
+2. Marks attendance as Present/Absent.
+3. Backend validates attendance data.
+4. Attendance records are stored in the database.
+5. Dashboard and attendance history update automatically.
+
+---
+
+# 🏗️ Full Stack Architecture
+
+```text
+React Frontend
+       ↓
+Axios API Calls
+       ↓
+FastAPI Backend
+       ↓
+Validation & Business Logic
+       ↓
+SQLAlchemy ORM
+       ↓
+PostgreSQL Database
+       ↓
+JSON Response
+       ↓
+Frontend UI Update
+
+---
+
+
 ## Tech Stack
 
 ### Frontend
