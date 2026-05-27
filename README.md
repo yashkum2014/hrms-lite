@@ -1,19 +1,10 @@
-# HRMS Lite – Full Stack Application
+# HRMS Lite – Full Stack Human Resource Management System
 
 ## Project Overview
 
-HRMS Lite is a lightweight Human Resource Management System designed to manage employee records and track daily attendance.
-
+A lightweight Full Stack HRMS (Human Resource Management System) built to manage employee records and track attendance efficiently.
 The application simulates a basic internal HR tool for a single admin user and focuses on core HR operations with a clean and functional interface.
-
-Core features include:
-
-- Employee management (add, view, delete)
-- Attendance tracking (mark present/absent by date)
-- Attendance history per employee
-- Dashboard summary
-- Server-side validation and error handling
-- Fully deployed frontend and backend
+This project demonstrates complete frontend-backend integration using modern web technologies and REST APIs.
 
 ---
 
