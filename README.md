@@ -96,6 +96,7 @@ The workflow of the **HRMS Lite** project starts from the frontend user interfac
 
 # 🏗️ Full Stack Architecture
 
+```text
 React Frontend
        ↓
 Axios API Calls
@@ -111,6 +112,7 @@ PostgreSQL Database
 JSON Response
        ↓
 Frontend UI Update
+```
 
 ---
 
