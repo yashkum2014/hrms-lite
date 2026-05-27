@@ -96,7 +96,6 @@ The workflow of the **HRMS Lite** project starts from the frontend user interfac
 
 # 🏗️ Full Stack Architecture
 
-```text
 React Frontend
        ↓
 Axios API Calls
@@ -113,7 +112,6 @@ JSON Response
        ↓
 Frontend UI Update
 
-```
 ---
 
 
@@ -188,14 +186,6 @@ https://hrms-lite-backend-4rz9.onrender.com/docs
 
 GitHub Repository:  
 https://github.com/yashkum2014/hrms-lite
-
----
-
-## Bonus Features
-
-- Filter attendance records by date  
-- Display total present days per employee  
-- Basic dashboard summary (total employees & present count)
 
 ---
 
