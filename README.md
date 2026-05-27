@@ -208,5 +208,56 @@ Frontend will run at:
 http://localhost:5173
 ```
 
+# ⚠️ Challenges Faced
+
+## 1. Frontend-Backend Communication Issues
+
+**Problem:**  
+API requests were failing due to incorrect endpoints and CORS issues.
+
+**Solution:**  
+Configured FastAPI CORS middleware and centralized API services using Axios.
+
+---
+
+## 2. Database Integration
+
+**Problem:**  
+Managing database connections and ORM models properly.
+
+**Solution:**  
+Used SQLAlchemy ORM with modular database configuration.
+
+---
+
+## 3. Validation Errors
+
+**Problem:**  
+Invalid data submission from frontend forms.
+
+**Solution:**  
+Implemented Pydantic schema validation for secure request handling.
+
+---
+
+## 4. Deployment Issues
+
+**Problem:**  
+Environment variables and database connection issues during deployment.
+
+**Solution:**  
+Used environment-based configuration on Render.
+
+---
+
+# 📌 Future Improvements
+
+- Authentication & Authorization
+- Role-Based Access Control
+- Employee Salary Management
+- Leave Management System
+- Export Reports to Excel/PDF
+- Email Notifications
+- Advanced Dashboard Analytics
 
 
