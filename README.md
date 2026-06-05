@@ -8,7 +8,7 @@ This project demonstrates complete frontend-backend integration using modern web
 
 ---
 
-# 🚀 Features
+# Features
 
 - Employee Management System
 - Add / Update / Delete Employees
@@ -23,7 +23,7 @@ This project demonstrates complete frontend-backend integration using modern web
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 ## Frontend
 - React
@@ -54,7 +54,7 @@ This project demonstrates complete frontend-backend integration using modern web
 
 ---
 
-# 📌 Project Workflow
+# Project Workflow
 
 The workflow of the **HRMS Lite** project starts from the frontend user interface and moves through backend APIs, business logic, database operations, and finally returns the response back to the user.
 
@@ -85,7 +85,7 @@ The workflow of the **HRMS Lite** project starts from the frontend user interfac
 
 ---
 
-# 🏗️ Full Stack Architecture
+# Full Stack Architecture
 
 ```text
 React Frontend
@@ -208,7 +208,7 @@ Frontend will run at:
 http://localhost:5173
 ```
 
-# ⚠️ Challenges Faced
+# Challenges Faced
 
 ## 1. Frontend-Backend Communication Issues
 
@@ -250,7 +250,7 @@ Used environment-based configuration on Render.
 
 ---
 
-# 📌 Future Improvements
+# Future Improvements
 
 - Authentication & Authorization
 - Role-Based Access Control
